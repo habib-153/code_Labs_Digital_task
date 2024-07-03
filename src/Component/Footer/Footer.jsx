@@ -1,34 +1,35 @@
-import logo from "../../assets/icon/EventHost.png";
-import img1 from "../../assets/icon/Vector_2_footer.png";
-import logo1 from "../../assets/image 9.png";
-import logo2 from "../../assets/Group 40.png";
-import logo3 from "../../assets/icon/Layer 1 1.png";
+import logo from "../../assets/logo light.png";
+
 const Footer = () => {
   return (
-    <footer className=" mx-auto bg-gradient-to-r from-[#591BFF] to-[#a2c8f3] p-10 bg-base-200 text-base-content">
-      <div className="max-w-[1160px] mx-auto grid grid-cols-4 items-center text-[#FFF] py-10 footer">
+    <footer className=" mx-auto bg-[#020043] p-10 bg-base-200 text-base-content">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-4 items-center text-[#FFFFF5] py-10 footer">
         <aside>
           <img className="my-3" src={logo} alt="" />
           <p>
-            IDEA Project, ICT Tower (0th Floor),
+          123 Main Street Anytown, USA
             <br />
-            Plot: E-14X, Agargaon, Dhaka - 1207
+            Postal Code: 12345
             <br />
-            02222-222222, 01111111111
+            <br />
+            Support: support@oyolloo.com
+            <br />
+            (Available : 10:00am to 07:00pm)
           </p>
         </aside>
-        <nav className="flex flex-col text-center">
+        <nav className="flex flex-col">
           <a className="link link-hover">Home</a>
-          <a className="link link-hover">Event</a>
           <a className="link link-hover">About Us</a>
-          <a className="link link-hover">Contact</a>
+          <a className="link link-hover">Success Page</a>
+          <a className="link link-hover">Terms And Conditions</a>
         </nav>
-        <nav className="flex flex-col text-center">
-          <a className="link link-hover">Event Dashboard</a>
-          <a className="link link-hover">Terms & Condition</a>
-          <a className="link link-hover">Privacy & Refund Policy</a>
+        <nav className="flex flex-col">
+          <a className="link link-hover">Services</a>
+          <a className="link link-hover">Scheduling</a>
+          <a className="link link-hover">Contact Us</a>
+          <a className="link link-hover">Patient Portal</a>
         </nav>
-        <nav>
+        <nav className="space-y-4">
           <p>Follow Us</p>
           <div className="grid grid-flow-col gap-4">
             <a>
@@ -65,21 +66,8 @@ const Footer = () => {
               </svg>
             </a>
           </div>
+          <p>@Docplus 2024</p>
         </nav>
-      </div>
-      <div className="max-w-[1160px] mx-auto text-white">
-        <img src={img1} alt="" />
-        <div className="flex justify-between my-4">
-            <div className="flex items-center gap-8">
-                <p>Pay With</p>
-            <img className="w-[40px]" src={logo1} alt="" />
-            <img className="w-[40px] h-[35px]" src={logo2} alt="" />
-            <img className="w-[40px]" src={logo3} alt="" />
-            </div>
-            <div>
-                <p>©2023 TickHost & UVTR. All right reserved</p>
-            </div>
-        </div>
       </div>
     </footer>
   );
