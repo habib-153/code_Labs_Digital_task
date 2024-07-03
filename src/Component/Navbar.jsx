@@ -1,5 +1,5 @@
-import { MdOutlineArrowOutward } from "react-icons/md";
 import logo from "../assets/logo dark.png";
+import CustomButton from "./Button/CustomButton";
 
 const Navbar = () => {
   const navLinks = ["Home", "Services", "Blog", "About us"];
@@ -19,9 +19,8 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="border border-[#343268] py-2 px-4 flex  gap-1 rounded-xl">
-            <button className="font-medium text-[#020043]">Appointment</button>
-            <MdOutlineArrowOutward className="text-xl" />
+          <div>
+            <CustomButton text='Appointment' textColor='#020043' />
           </div>
         </div>
       </div>
