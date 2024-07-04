@@ -18,16 +18,16 @@ const Footer = () => {
           </p>
         </aside>
         <nav className="flex flex-col">
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">About Us</a>
-          <a className="link link-hover">Success Page</a>
-          <a className="link link-hover">Terms And Conditions</a>
+          <a href="" className="link link-hover">Home</a>
+          <a href="" className="link link-hover">About Us</a>
+          <a href="" className="link link-hover">Success Page</a>
+          <a href="" className="link link-hover">Terms And Conditions</a>
         </nav>
         <nav className="flex flex-col">
-          <a className="link link-hover">Services</a>
-          <a className="link link-hover">Scheduling</a>
-          <a className="link link-hover">Contact Us</a>
-          <a className="link link-hover">Patient Portal</a>
+          <a href="" className="link link-hover">Services</a>
+          <a href="" className="link link-hover">Scheduling</a>
+          <a href="" className="link link-hover">Contact Us</a>
+          <a href="" className="link link-hover">Patient Portal</a>
         </nav>
         <nav className="space-y-4">
           <p>Follow Us</p>
