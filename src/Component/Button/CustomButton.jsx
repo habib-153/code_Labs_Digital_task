@@ -11,7 +11,7 @@ const CustomButton = ({ text, bgColor, textColor }) => {
           ? { backgroundColor: bgColor, color: textColor }
           : { color: textColor }
       }
-      className="font-normal flex items-center gap-2 py-2 px-4 rounded-xl normal-case"
+      className="font-normal text-lg flex items-center gap-2 py-2 px-4 rounded-xl normal-case"
     >
       {text} <MdOutlineArrowOutward className="text-xl" />
     </Button>
