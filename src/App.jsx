@@ -1,3 +1,4 @@
+import Appointment from "./Component/Appointment/Appointment";
 import Banner from "./Component/Banner/Banner";
 import ComprehensiveCare from "./Component/ComprehensiveCare/ComprehensiveCare";
 import FAQuestions from "./Component/FAQ/FAQ";
@@ -19,6 +20,7 @@ const App = () => {
         <Testimonial />
         <FAQuestions />
       </div>
+      <Appointment />
       <Footer />
     </div>
   );
