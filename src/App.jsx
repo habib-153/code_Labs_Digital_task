@@ -1,8 +1,10 @@
 import Banner from "./Component/Banner/Banner";
 import ComprehensiveCare from "./Component/ComprehensiveCare/ComprehensiveCare";
+import FAQuestions from "./Component/FAQ/FAQ";
 import Footer from "./Component/Footer/Footer";
 import Navbar from "./Component/Navbar";
 import Service from "./Component/Service/Service";
+import Testimonial from "./Component/Testimonial/Testimonial";
 import WhoWeAre from "./Component/WhoWeAre/WhoWeAre";
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
         <ComprehensiveCare />
         <WhoWeAre />
         <Service />
+        <Testimonial />
+        <FAQuestions />
       </div>
       <Footer />
     </div>
